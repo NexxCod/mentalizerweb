@@ -1,80 +1,127 @@
-
+$redes: (
+  facebook: #1877F2,
+  twitter-x: #000,
+  linkedin: #0077B5,
+  whatsapp: #25D366
+);
 
 #main-footer {
-    background-color: $primary-color;
+  background-color: $primary-color;
+  color: $light-gray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  h5 {
     color: $light-gray;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  
-    h5 {
-      color: $light-gray;
-      margin-bottom: 1rem;
-    }
-  
-    ul {
-      padding: 0;
-      list-style: none;
-  
-      li {
-        margin-bottom: 0.5rem;
-        
-        a {
-          color: $light-gray;
-          text-decoration: none;
-          
-          &:hover {
-            color: $secondary-color;
-          }
-        }
-      }
-    }
-  
-    .text-light {
-      color: $light-gray;
+    margin-bottom: 1rem;
+  }
+
+  p, ul {
+    color: $light-gray;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin-bottom: 0.5rem;
       
-      &:hover {
-        color: $secondary-color;
-      }
-    }
-  
-    .btn-primary {
-      background-color: $accent-color;
-      border-color: $accent-color;
-      color: $background-color;
-  
-      &:hover {
-        background-color: lighten($accent-color, 10%);
-        border-color: lighten($accent-color, 10%);
-      }
-    }
-  
-    .bi {
-      font-size: 1.5rem;
-  
-      &:hover {
-        color: $secondary-color;
-      }
-    }
-  
-    .social-media {
-      text-align: center;
-      margin-bottom: 1rem;
-  
       a {
-        margin: 0 10px;
         color: $light-gray;
-  
+        text-decoration: none;
+        
         &:hover {
           color: $secondary-color;
         }
       }
     }
-  
-    .btn-container {
-      text-align: center;
-  
-      .btn-primary {
-        margin-top: 1rem;
+  }
+
+  .text-light {
+    color: $light-gray;
+    
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .btn-primary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+    color: $background-color;
+
+    &:hover {
+      background-color: lighten($accent-color, 10%);
+      border-color: lighten($accent-color, 10%);
+    }
+  }
+
+  .bi {
+    font-size: 1.5rem;
+  }
+
+  .social-media {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    a {
+      margin: 0 10px;
+      color: $light-gray;
+      transition: color 0.3s ease;
+
+      @each $redsocial, $color in $redes {
+        &.#{'text-light'}:hover .bi-#{$redsocial} {
+          color: $color;
+        }
       }
     }
   }
+
+  .btn-container {
+    text-align: center;
+
+    .btn-primary {
+      margin-top: 1rem;
+    }
+  }
+
+  .legal:hover, .envelope:hover, .whatsapp:hover {
+    color: $secondary-color !important;
+  }
+
+  // Media queries for responsive design
+  @media (max-width: 767px) {
+    .social-media {
+      margin-bottom: 2rem;
+    }
+
+    .text-center.text-md-start,
+    .text-center.text-md-end {
+      text-align: center !important;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .row .col-md-4 {
+      flex: 1 1 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .list-unstyled {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      li {
+        margin: 0 1rem;
+      }
+    }
+  }
+}
