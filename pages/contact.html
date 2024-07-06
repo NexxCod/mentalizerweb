@@ -49,8 +49,45 @@
     </header>
 
     <main>
-
+        <section id="contact-hero" class="py-5 text-center text-light bg-dark">
+            <div class="container">
+                <h1 class="display-4">Contáctanos</h1>
+                <p class="lead">Mentalizer, creado por médicos para médicos. Completa el formulario y te contactaremos con uno de nuestros agentes médicos para una explicación completa del uso del producto y una prueba gratuita si lo requieres.</p>
+            </div>
+        </section>
+    
+        <section id="contact-form" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Formulario de Contacto</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Número de Teléfono</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    
 
 
     <footer id="main-footer" class="py-4 bg-dark text-light">

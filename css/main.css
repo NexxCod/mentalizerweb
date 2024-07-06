@@ -164,6 +164,272 @@
   padding: 0.5rem;
 }
 
+.workflow-section {
+  background-color: #f8f9fa;
+  padding: 5rem 0;
+}
+.workflow-section h2 {
+  color: #343a40;
+  margin-bottom: 3rem;
+}
+.workflow-section .workflow-step {
+  margin-bottom: 2rem;
+}
+.workflow-section .workflow-step .card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.workflow-section .workflow-step .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.workflow-section .workflow-step .card .card-img-top {
+  border-radius: 0;
+  height: 200px;
+  object-fit: cover;
+}
+.workflow-section .workflow-step .card .card-body {
+  padding: 1.5rem;
+}
+.workflow-section .workflow-step .card .card-body .card-title {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+.workflow-section .workflow-step .card .card-body .card-text {
+  color: #333333;
+}
+.workflow-section .row {
+  gap: 1rem;
+}
+
+#cta {
+  background-color: #003366;
+  color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+#cta h2 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+#cta p {
+  color: #f8f9fa;
+  margin-bottom: 2rem;
+}
+#cta .btn-secondary {
+  background-color: #00cc66;
+  border-color: #00cc66;
+  color: #ffffff;
+}
+#cta .btn-secondary:hover {
+  background-color: #00ff80;
+  border-color: #00ff80;
+}
+
+#pricing {
+  background-color: #f8f9fa;
+  color: #333333;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#pricing h2 {
+  color: #343a40;
+  margin-bottom: 3rem;
+}
+#pricing .card {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#pricing .card .card-header {
+  background-color: #003366;
+  color: #ffffff;
+  padding: 1rem;
+}
+#pricing .card .card-body {
+  padding: 2rem;
+}
+#pricing .card .card-body .pricing-card-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#pricing .card .card-body .pricing-card-title small {
+  font-size: 0.75rem;
+  color: #333333;
+}
+#pricing .card .card-body ul {
+  list-style: none;
+  padding: 0;
+}
+#pricing .card .card-body ul li {
+  margin-bottom: 0.75rem;
+}
+#pricing .card .card-body .btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  color: #ffffff;
+}
+#pricing .card .card-body .btn-primary:hover {
+  background-color: #004d99;
+  border-color: #004d99;
+}
+#pricing .table-responsive {
+  margin-top: 3rem;
+}
+#pricing .table-responsive .table {
+  color: #333333;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+#pricing .table-responsive .table th {
+  background-color: #003366;
+  color: #ffffff;
+}
+#pricing .table-responsive .table td {
+  vertical-align: middle;
+}
+#pricing .table-responsive .table .bi-check-lg {
+  font-size: 1.25rem;
+}
+
+#testimonials-hero {
+  background-color: #003366;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#testimonials-hero .lead {
+  color: #f8f9fa;
+}
+
+#testimonials {
+  background-color: #f8f9fa;
+  color: #333333;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#testimonials h2 {
+  color: #003366;
+  margin-bottom: 3rem;
+}
+#testimonials .card {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#testimonials .card .card-body {
+  padding: 2rem;
+}
+#testimonials .card .card-body .d-flex {
+  align-items: center;
+}
+#testimonials .card .card-body .d-flex img {
+  border-radius: 50%;
+}
+#testimonials .card .card-body .d-flex h5 {
+  margin-bottom: 0;
+  color: #003366;
+}
+#testimonials .card .card-body .d-flex p {
+  margin-bottom: 0;
+  color: #00cc66;
+}
+#testimonials .card .card-body blockquote {
+  font-size: 1.25rem;
+  color: #333333;
+  margin-top: 1rem;
+}
+#testimonials .card .card-body blockquote p {
+  margin-bottom: 1rem;
+}
+#testimonials .card .card-body blockquote cite {
+  color: #00cc66;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#more-testimonials {
+  background-color: #ffffff;
+  color: #333333;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#more-testimonials h2 {
+  color: #003366;
+  margin-bottom: 3rem;
+}
+#more-testimonials .card {
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#more-testimonials .card .card-body {
+  padding: 2rem;
+}
+#more-testimonials .card .card-body blockquote {
+  font-size: 1.25rem;
+  color: #333333;
+}
+#more-testimonials .card .card-body blockquote p {
+  margin-bottom: 1rem;
+}
+#more-testimonials .card .card-body blockquote cite {
+  color: #00cc66;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+#contact-hero {
+  background-color: #003366;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#contact-hero .lead {
+  color: #f8f9fa;
+}
+
+#contact-form {
+  background-color: #f8f9fa;
+  color: #333333;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#contact-form h2 {
+  color: #003366;
+  margin-bottom: 3rem;
+}
+#contact-form .form-label {
+  color: #333333;
+}
+#contact-form .form-control {
+  border: 1px solid #00cc66;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+#contact-form .form-control:focus {
+  border-color: #3399ff;
+  box-shadow: 0 0 5px rgba(0, 153, 77, 0.5);
+}
+#contact-form .btn-primary {
+  background-color: #003366;
+  border-color: #003366;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+}
+#contact-form .btn-primary:hover {
+  background-color: #004d99;
+  border-color: #004d99;
+}
+
 #main-footer {
   background-color: #003366;
   color: #f8f9fa;

@@ -1,0 +1,29 @@
+@use 'variables' as *;
+#cta {
+    background-color: $primary-color;
+    color: $light-gray;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  
+    h2 {
+      color: $background-color;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      color: $light-gray;
+      margin-bottom: 2rem;
+    }
+  
+    .btn-secondary {
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+      color: $background-color;
+  
+      &:hover {
+        background-color: lighten($secondary-color, 10%);
+        border-color: lighten($secondary-color, 10%);
+      }
+    }
+  }

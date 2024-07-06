@@ -1,0 +1,84 @@
+@use 'variables' as *;
+
+#pricing {
+  background-color: $light-gray;
+  color: $text-color;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  h2 {
+    color: $dark-gray;
+    margin-bottom: 3rem;
+  }
+
+  .card {
+    border: none;
+    background-color: $background-color;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .card-header {
+      background-color: $primary-color;
+      color: $background-color;
+      padding: 1rem;
+    }
+
+    .card-body {
+      padding: 2rem;
+
+      .pricing-card-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+        small {
+          font-size: 0.75rem;
+          color: $text-color;
+        }
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 0.75rem;
+        }
+      }
+
+      .btn-primary {
+        background-color: $primary-color;
+        border-color: $primary-color;
+        color: $background-color;
+
+        &:hover {
+          background-color: lighten($primary-color, 10%);
+          border-color: lighten($primary-color, 10%);
+        }
+      }
+    }
+  }
+
+  .table-responsive {
+    margin-top: 3rem;
+
+    .table {
+      color: $text-color;
+      background-color: $background-color;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      th {
+        background-color: $primary-color;
+        color: $background-color;
+      }
+
+      td {
+        vertical-align: middle;
+      }
+
+      .bi-check-lg {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
