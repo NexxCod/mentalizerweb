@@ -1,0 +1,43 @@
+// _benefits.scss
+
+@use 'variables' as *;
+
+#benefits {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  h2 {
+    color: $dark-gray;
+    margin-bottom: 3rem;
+  }
+
+  .icon {
+    font-size: 4rem;
+    color: $accent-color;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    color: $dark-gray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $text-color;
+  }
+
+  .benefit-item {
+    margin-bottom: 2rem;
+
+    &:hover {
+      .icon {
+        color: darken($accent-color, 10%);
+      }
+
+      h3 {
+        color: darken($secondary-color, 10%);
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+// _navbar.scss
+
+@use 'variables' as *;
+
+.navbar {
+  background-color: $primary-color;
+  color: $white;
+
+  .navbar-brand {
+    color: $white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    &:hover {
+      color: lighten($white, 20%);
+    }
+  }
+
+  .navbar-nav .nav-link {
+    color: $white;
+    margin-right: 1rem;
+
+    &:hover {
+      color: $secondary-color;
+    }
+
+    &.active {
+      color: $accent-color;
+    }
+  }
+
+  .navbar-toggler {
+    border-color: $white;
+
+  }
+
+  .btn-primary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+    color: $white;
+
+    &:hover {
+      background-color: lighten($accent-color, 10%);
+      border-color: lighten($accent-color, 10%);
+    }
+  }
+}

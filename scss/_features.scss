@@ -1,0 +1,33 @@
+// _features.scss
+
+@use 'variables' as *;
+
+#features-summary {
+  background-color: $light-gray;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  h2 {
+    color: $dark-gray;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    color: $text-color;
+  }
+
+  .feature-item {
+    margin-bottom: 2rem;
+
+    img {
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+
+    &:hover {
+      p {
+        color: $accent-color;
+      }
+    }
+  }
+}

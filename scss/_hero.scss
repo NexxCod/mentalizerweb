@@ -1,0 +1,17 @@
+@use 'variables' as *;
+#hero {
+    background: url('../img/herobg.jpg') no-repeat center center;
+    background-size: cover;
+    h1 {
+        color: $dark-gray; /* Color del texto del encabezado */
+    }
+    p {
+        color: $gray; /* Color del texto del párrafo */
+    }
+}
+
+.btn-cta {
+    background-color: $primary-color;
+    border-color: $accent-color;
+    color: $white;
+};

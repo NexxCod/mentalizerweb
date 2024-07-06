@@ -1,0 +1,211 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #003366;
+  color: #ffffff;
+}
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+  color: white;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 1rem;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #00cc66;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: #3399ff;
+}
+.navbar .navbar-toggler {
+  border-color: #ffffff;
+}
+.navbar .btn-primary {
+  background-color: #3399ff;
+  border-color: #3399ff;
+  color: #ffffff;
+}
+.navbar .btn-primary:hover {
+  background-color: #66b3ff;
+  border-color: #66b3ff;
+}
+
+#hero {
+  background: url("../img/herobg.jpg") no-repeat center center;
+  background-size: cover;
+}
+#hero h1 {
+  color: #343a40; /* Color del texto del encabezado */
+}
+#hero p {
+  color: #6c757d; /* Color del texto del párrafo */
+}
+
+.btn-cta {
+  background-color: #003366;
+  border-color: #3399ff;
+  color: #ffffff;
+}
+
+#benefits {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#benefits h2 {
+  color: #343a40;
+  margin-bottom: 3rem;
+}
+#benefits .icon {
+  font-size: 4rem;
+  color: #3399ff;
+  margin-bottom: 1rem;
+}
+#benefits h3 {
+  color: #343a40;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#benefits p {
+  color: #333333;
+}
+#benefits .benefit-item {
+  margin-bottom: 2rem;
+}
+#benefits .benefit-item:hover .icon {
+  color: #0080ff;
+}
+#benefits .benefit-item:hover h3 {
+  color: #00994d;
+}
+
+#features-summary {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#features-summary h2 {
+  color: #343a40;
+  margin-bottom: 3rem;
+}
+#features-summary p {
+  color: #333333;
+}
+#features-summary .feature-item {
+  margin-bottom: 2rem;
+}
+#features-summary .feature-item img {
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+#features-summary .feature-item:hover p {
+  color: #3399ff;
+}
+
+#testimonials-summary {
+  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+#testimonials-summary h2 {
+  color: #343a40;
+  margin-bottom: 3rem;
+}
+#testimonials-summary .card {
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+}
+#testimonials-summary .card .card-body {
+  padding: 2rem;
+}
+#testimonials-summary .card blockquote {
+  font-size: 1.25rem;
+  color: #333333;
+}
+#testimonials-summary .card blockquote p {
+  margin-bottom: 1rem;
+}
+#testimonials-summary .card blockquote cite {
+  color: #00cc66;
+  font-size: 1rem;
+  font-style: italic;
+}
+#testimonials-summary .carousel-control-prev-icon,
+#testimonials-summary .carousel-control-next-icon {
+  background-color: #003366;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+#main-footer {
+  background-color: #003366;
+  color: #f8f9fa;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#main-footer h5 {
+  color: #f8f9fa;
+  margin-bottom: 1rem;
+}
+#main-footer ul {
+  padding: 0;
+  list-style: none;
+}
+#main-footer ul li {
+  margin-bottom: 0.5rem;
+}
+#main-footer ul li a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+#main-footer ul li a:hover {
+  color: #00cc66;
+}
+#main-footer .text-light {
+  color: #f8f9fa;
+}
+#main-footer .text-light:hover {
+  color: #00cc66;
+}
+#main-footer .btn-primary {
+  background-color: #3399ff;
+  border-color: #3399ff;
+  color: #ffffff;
+}
+#main-footer .btn-primary:hover {
+  background-color: #66b3ff;
+  border-color: #66b3ff;
+}
+#main-footer .bi {
+  font-size: 1.5rem;
+}
+#main-footer .bi:hover {
+  color: #00cc66;
+}
+#main-footer .social-media {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#main-footer .social-media a {
+  margin: 0 10px;
+  color: #f8f9fa;
+}
+#main-footer .social-media a:hover {
+  color: #00cc66;
+}
+#main-footer .btn-container {
+  text-align: center;
+}
+#main-footer .btn-container .btn-primary {
+  margin-top: 1rem;
+}/*# sourceMappingURL=main.css.map */

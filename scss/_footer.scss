@@ -1,0 +1,80 @@
+@use 'variables' as *;
+
+#main-footer {
+    background-color: $primary-color;
+    color: $light-gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    h5 {
+      color: $light-gray;
+      margin-bottom: 1rem;
+    }
+  
+    ul {
+      padding: 0;
+      list-style: none;
+  
+      li {
+        margin-bottom: 0.5rem;
+        
+        a {
+          color: $light-gray;
+          text-decoration: none;
+          
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  
+    .text-light {
+      color: $light-gray;
+      
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  
+    .btn-primary {
+      background-color: $accent-color;
+      border-color: $accent-color;
+      color: $background-color;
+  
+      &:hover {
+        background-color: lighten($accent-color, 10%);
+        border-color: lighten($accent-color, 10%);
+      }
+    }
+  
+    .bi {
+      font-size: 1.5rem;
+  
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  
+    .social-media {
+      text-align: center;
+      margin-bottom: 1rem;
+  
+      a {
+        margin: 0 10px;
+        color: $light-gray;
+  
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  
+    .btn-container {
+      text-align: center;
+  
+      .btn-primary {
+        margin-top: 1rem;
+      }
+    }
+  }
