@@ -1,0 +1,32 @@
+#terms, #privacy-policy{
+    background-color: $light-gray;
+    color: $text-color;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  
+    h1 {
+      color: $primary-color;
+      margin-bottom: 3rem;
+    }
+  
+    h2 {
+      color: $dark-gray;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+  
+    a {
+      color: $accent-color;
+      text-decoration: underline;
+  
+      &:hover {
+        color: lighten($accent-color, 10%);
+      }
+    }
+  }
