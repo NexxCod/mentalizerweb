@@ -31,11 +31,11 @@
 
     &:hover {
       .icon {
-        color: darken($accent-color, 10%);
+        color: darken($accent-color, 20%);
       }
 
       h3 {
-        color: darken($secondary-color, 10%);
+        color: $secondary-color;
       }
     }
   }

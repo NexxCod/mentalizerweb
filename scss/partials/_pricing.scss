@@ -18,7 +18,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
     .card-header {
-      background-color: $primary-color;
+      background-color: $accent-color;
       color: $background-color;
       padding: 1rem;
     }
@@ -68,7 +68,7 @@
       overflow: hidden;
 
       th {
-        background-color: $primary-color;
+        background-color: $accent-color;
         color: $background-color;
       }
 
